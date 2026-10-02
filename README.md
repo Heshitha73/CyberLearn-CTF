@@ -53,7 +53,7 @@ Suggested tools: `file`, `strings`, ExifTool, CyberChef, Wireshark/TShark, brows
 ### 1. Clone
 
 ```bash
-git clone https://github.com/heshitha73/CyberLearnCTF.git
+git clone https://github.com/Heshitha73/CyberLearn-CTF
 cd CyberLearnCTF
 ```
 
