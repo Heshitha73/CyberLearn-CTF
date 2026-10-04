@@ -54,7 +54,7 @@ Suggested tools: `file`, `strings`, ExifTool, CyberChef, Wireshark/TShark, brows
 
 ```bash
 git clone https://github.com/Heshitha73/CyberLearn-CTF
-cd CyberLearnCTF
+cd CyberLearn-CTF
 ```
 
 ### 2. Create a virtual environment
