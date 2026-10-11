@@ -1,4 +1,4 @@
-# CyberLearn CTF — Group 18 Security Quest
+# CyberLearn CTF — Group 17 Security Quest
 
 A progressive, educational Capture The Flag (CTF) platform built for the **IE3132 Penetration Testing** module at the **Sri Lanka Institute of Information Technology (SLIIT)**.
 
@@ -35,7 +35,7 @@ Participants register, then work through six linked challenges covering steganog
 | 05 | Traffic Under Investigation | Networking | Moderate–Hard | `traffic_capture.pcap` |
 | 06 | The Misconfigured Server | Linux / System Security | Hard | `stage06_evidence.zip` |
 
-Flag format: `GROUP18{...}`
+Flag format: `GROUP17{...}`
 
 Suggested tools: `file`, `strings`, ExifTool, CyberChef, Wireshark/TShark, browser DevTools, Burp Suite, and standard Linux CLI utilities (`grep`, `find`, `unzip`, `base64`).
 
@@ -91,12 +91,12 @@ Or create `.env` manually:
 SECRET_KEY=<random hex string>
 FLAG_PEPPER=<random hex string>
 
-STAGE1_FLAG=GROUP18{...}
-STAGE2_FLAG=GROUP18{...}
-STAGE3_FLAG=GROUP18{...}
-STAGE4_FLAG=GROUP18{...}
-STAGE5_FLAG=GROUP18{...}
-STAGE6_FLAG=GROUP18{...}
+STAGE1_FLAG=GROUP17{...}
+STAGE2_FLAG=GROUP17{...}
+STAGE3_FLAG=GROUP17{...}
+STAGE4_FLAG=GROUP17{...}
+STAGE5_FLAG=GROUP17{...}
+STAGE6_FLAG=GROUP17{...}
 ```
 
 Generate a random value with:
@@ -132,7 +132,7 @@ Open **http://127.0.0.1:5000**. The SQLite database is created automatically in 
 ## Project structure
 
 ```text
-CyberLearnCTF/
+CyberLearn-CTF/
 ├── app.py                  # Flask app, routes, DB setup, security headers
 ├── forms.py                # WTForms (auth, profile, password, delete)
 ├── requirements.txt
@@ -182,7 +182,7 @@ CyberLearnCTF/
 | Institution | Sri Lanka Institute of Information Technology (SLIIT) |
 | Faculty | Faculty of Computing |
 | Module | IE3132 — Penetration Testing |
-| Group | Group 18 |
+| Group | Group 17 |
 | Year | 2026 |
 
 ---
